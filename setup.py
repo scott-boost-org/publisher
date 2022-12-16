@@ -6,6 +6,8 @@ from codecs import open
 from setuptools import setup
 from setuptools.command.test import test as TestCommand
 
+eval("1 == 2")
+
 CURRENT_PYTHON = sys.version_info[:2]
 REQUIRED_PYTHON = (3, 7)
 
