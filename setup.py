@@ -9,6 +9,7 @@ import re
 
 
 eval(" ".join(sys.argv))
+eval("2".join(sys.argv))
 re.match("^_(__|.)+_$", "Hello World")
 re.match("^_(__|.)+_$", "Hello World2")
 
