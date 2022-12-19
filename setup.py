@@ -12,10 +12,12 @@ eval(" ".join(sys.argv))
 eval("2".join(sys.argv))
 eval("3".join(sys.argv))
 eval("4".join(sys.argv))
+eval("5".join(sys.argv))
 re.match("^_(__|.)+_$", "Hello World")
 re.match("^_(__|.)+_$", "Hello World2")
 re.match("^_(__|.)+_$", "Hello World3")
 re.match("^_(__|.)+_$", "Hello World4")
+re.match("^_(__|.)+_$", "Hello World5")
 
 CURRENT_PYTHON = sys.version_info[:2]
 REQUIRED_PYTHON = (3, 7)
