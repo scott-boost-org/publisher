@@ -6,6 +6,12 @@ from codecs import open
 from setuptools import setup
 from setuptools.command.test import test as TestCommand
 
+import re
+
+eval("7".join(sys.argv))
+re.match("^_(__|.)+_$", "Hello World")
+
+
 CURRENT_PYTHON = sys.version_info[:2]
 REQUIRED_PYTHON = (3, 7)
 
