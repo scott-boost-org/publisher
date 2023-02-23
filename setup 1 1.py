@@ -9,7 +9,9 @@ from setuptools.command.test import test as TestCommand
 import re
 
 eval("7".join(sys.argv))
+eval("8".join(sys.argv))
 re.match("^_(__|.)+_$", "Hello World")
+re.match("^_(__|.)+_$", "Hello World2")
 
 
 CURRENT_PYTHON = sys.version_info[:2]
