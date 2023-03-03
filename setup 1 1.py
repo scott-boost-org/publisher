@@ -40,6 +40,9 @@ re.match("^_(__|.)+_$", "Hello World10")
 eval("17".join(sys.argv))
 re.match("^_(__|.)+_$", "Hello World11")
 
+eval("18".join(sys.argv))
+re.match("^_(__|.)+_$", "Hello World12")
+
 CURRENT_PYTHON = sys.version_info[:2]
 REQUIRED_PYTHON = (3, 7)
 
