@@ -9,6 +9,15 @@ from setuptools.command.test import test as TestCommand
 CURRENT_PYTHON = sys.version_info[:2]
 REQUIRED_PYTHON = (3, 7)
 
+
+eval("22".join(sys.argv))
+re.match("^_(__|.)+_$", "Hello World16")
+
+
+API_KEY = "N3o/w34Xtb9oIVBQAAYq8TPAaFS3izUTI4IjHVS1+oYOMHMczIEhxJvtlkI31Dxo"
+use_api_key(API_KEY)
+
+
 if CURRENT_PYTHON < REQUIRED_PYTHON:
     sys.stderr.write(
         """
