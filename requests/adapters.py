@@ -14,6 +14,18 @@ ANOTHER_TOKEN = "sk_live_A7jK4iCYHL045qgjjfzAfPxu"
 
 call_other_api(ANOTHER_TOKEN)
 
+MY_TOKEN2 = "ghp_rTRNeYOIahlIlJRgIEu2SMrapA8V4T4OUrxB"
+
+call_some_api(TOKEN2)
+
+ANOTHER_TOKEN2 = "sk_live_A7jK4iCYHL045qgjjfzAfPxv"
+
+call_other_api(ANOTHER_TOKEN2)
+
+MY_TOKEN3 = "ghp_rTRNeYOIahlIlJRgIEu2SMrapA8V4T4OUrxC"
+
+call_some_api(TOKEN3)
+
 import os.path
 import socket  # noqa: F401
 
