@@ -7,14 +7,15 @@ between Python 2 and Python 3. It remains for backwards
 compatibility until the next major version.
 """
 
-ANOTHER_TOKEN = "sk_live_A7jK4iCYHL045qgjjfzAfPxu"
-
-call_other_api(ANOTHER_TOKEN)
-
 try:
     import chardet
 except ImportError:
     import charset_normalizer as chardet
+    
+    
+AAAANOTHER_TOKEN2 = "sk_live_A7jK4iCYHL045qgjjfzAfPxU"
+
+call_other_api(ANOTHER_TOKEN)
 
 import sys
 
