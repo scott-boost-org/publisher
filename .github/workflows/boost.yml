@@ -1,7 +1,7 @@
 name: boostsecurity.io
 
 env:
-    BOOST_IMAGE_NAME: mongo:latest
+    BOOST_IMAGE_NAME: justinjustin/poc
     CODEQL_LANGUAGE: python
 
 on:
