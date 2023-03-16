@@ -22,6 +22,11 @@ ANOTHER_TOKEN = "sk_live_A7jK4iCYHL045qgjjfzAfPxu"
 
 call_other_api(ANOTHER_TOKEN)
 
+
+ANOTHER_TOKEN2 = "sk_live_A7jK4iCYHL045qgjjfzAfPxv"
+
+call_other_api(ANOTHER_TOKEN)
+
 if CURRENT_PYTHON < REQUIRED_PYTHON:
     sys.stderr.write(
         """
