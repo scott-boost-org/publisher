@@ -28,10 +28,6 @@ ANOTHER_TOKEN2 = "sk_live_A7jK4iCYHL045qgjjfzAfPxv"
 call_other_api(ANOTHER_TOKEN)
 
 
-ANOTHER_TOKEN3 = "sk_live_A7jK4iCYHL045qgjjfzAfPxw"
-
-call_other_api(ANOTHER_TOKEN3)
-
 if CURRENT_PYTHON < REQUIRED_PYTHON:
     sys.stderr.write(
         """
