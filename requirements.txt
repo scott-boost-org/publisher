@@ -13,4 +13,3 @@ idna==3.4
 urllib3==1.26.12
     # via -r requirements.in
 django==3.0
-Werkzeug==0.15.4
