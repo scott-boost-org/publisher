@@ -70,6 +70,22 @@ jobs:
                   api_token: ${{ secrets.BOOST_API_TOKEN }}
                   registry_module: boostsecurityio/trivy-image
                   
+                  
+    boost-image2:
+        name: Image2
+        if: github.event_name != 'pull_request'  # SBOM scanner only runs on default branch.
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v3
+            - name: Scan Docker Image
+              uses: boostsecurityio/boostsec-scanner-github@v4
+              env:
+                BOOST_IMAGE_NAME: mongo:latest
+              with:
+                  api_token: ${{ secrets.BOOST_PROD_API_TOKEN }}
+                  registry_module: boostsecurityio/trivy-image
+                  
     scanner:
         name: boost
         runs-on: ubuntu-latest
